@@ -1,0 +1,13 @@
+стр 43
+
+"a".ord      # => 97
+"!".ord      # => 33
+"\n".ord     # => 10
+
+97.chr       #=> "a"
+33.chr       #=> "!"
+10.chr       #=> "\n"
+0.chr        #=> "\x00"
+256.chr      # RangeError: 256 out of char range
+
+

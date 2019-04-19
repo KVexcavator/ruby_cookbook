@@ -1,0 +1,7 @@
+number = 5
+"The number is #{number}."                       # => "The number is 5."
+"The number is #{5}."                            # => "The number is 5."
+"The number after #{number} is #{number.next}."  # => "The number after 5 is 6."
+"The number prior to #{number} is #{number-1}."  # => "The number prior to 5 is 4."
+"We're ##{number}!"                              # => "We're #5!"
+

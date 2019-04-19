@@ -1,0 +1,13 @@
+template = 'Oceania has always been at war with %s.'
+template % 'Eurasia'      # => "Oceania has always been at war with Eurasia."
+template % 'Eastasia'     # => "Oceania has always been at war with Eastasia."
+'To 2 decimal places: %.2f' % Math::PI  # => "To 2 decimal places: 3.14"
+'Zero-padded: %.5d' % Math::PI          # => "Zero-padded: 00003"
+
+использование шаблона ERB
+require 'erb'
+template = ERB.new %q{Chunky <%= food %>!}
+food = "bacon"
+template.result(binding)  # => "Chunky bacon!"
+food = "peanut butter"
+template.result(binding)  # => "Chunky peanut butter!"

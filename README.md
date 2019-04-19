@@ -1,1 +1,1 @@
-# ruby_cookbook
+это мой архив для фич ruby, на основе книги Ruby cookbook
