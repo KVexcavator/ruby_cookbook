@@ -1,0 +1,12 @@
+символ в строку:
+:a_symbol.to_s                 # => "a_symbol"
+:AnotherSymbol.id2name         # => "AnotherSymbol"
+:"Yet another symbol!".to_s    # => "Yet another symbol!"
+
+строку в символ:
+
+:dodecahedron.object_id        # => 516488
+symbol_name = "dodecahedron"
+symbol_name.intern             # => :dodecahedron
+symbol_name.intern.object_id   # => 516488
+
