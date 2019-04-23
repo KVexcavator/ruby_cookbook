@@ -1,0 +1,5 @@
+'foobar'.each_byte { |x| puts "#{x} = #{x.chr}" }
+
+# или по регулярному выражению
+
+'foobar'.scan( /./ ) { |c| puts c }
